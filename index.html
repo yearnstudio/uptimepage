@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>运行状态 - TomyJan</title>
-  <link rel="icon" type="image/x-icon" href="https://cdn.tomys.top/common/img/favicon.ico">
+  <title>运行状态 - Yearnstudio</title>
+  <link rel="icon" type="image/x-icon" href="https://vip.123pan.cn/1833307342/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%86%85%E9%83%A8%E4%BD%BF%E7%94%A8/LOGO.png">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <style>
   .footer {
@@ -120,8 +120,8 @@
           </div>
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="https://tomys.top">主页</a></li>
-              <li><a href="https://blog.tomys.top">博客</a></li>
+              <li><a href="https://www.yearnstudio.cn">主页</a></li>
+              <li><a href="https://alist.yearnstudio.cn">资源站</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
             </ul>
@@ -134,10 +134,10 @@
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">
         <div id="stattip-err" class="alert alert-warning hide" role="alert">
-          <b>当前状态：</b>TomyJan 的部分服务发生异常，我们将尽快修复。
+          <b>当前状态：</b>Yearnstudio 的部分服务发生异常，我们将尽快修复。
         </div>
         <div id="stattip-ok" class="alert alert-success hide" role="alert">
-          <b>当前状态：</b>TomyJan 的所有服务正常运行中，没有发现异常。
+          <b>当前状态：</b>Yearnstudio 的所有服务正常运行中，没有发现异常。
         </div>
         <div id="stattip-load" class="alert alert-info" role="alert">
           <b>当前状态：</b>正在检测运行状态，请稍候..
@@ -190,7 +190,7 @@
     <script type="text/javascript" language="javascript">
         function setTime() {
             //下面是建站时间，月份需要-1
-            var create_time = Math.round(new Date(Date.UTC(2020, 06, 15, 18, 0, 0)).getTime() / 1000);
+            var create_time = Math.round(new Date(Date.UTC(2024, 8, 1, 0, 0, 0)).getTime() / 1000);
             var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
             currentTime = secondToDate((timestamp - create_time));
             currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
@@ -201,11 +201,10 @@
         setInterval(setTime, 1000);
     </script>
     <!--显示数据-->
-    <div><span>在风雨中度过<span id="htmer_time"></span></span>
+    <div><span>已运行<span id="htmer_time"></span></span>
 <!--运行时间代码结束位置-->
-<span> | <a href="https://github.com/TomyJan/UptimePage" target="_blank" style="color:black;">GitHub</a></span></div>
+<span> | <a href="https://github.com/yearnstudio/uptimepage" target="_blank" style="color:black;">GitHub</a></span></div>
 
-    <p> <a href="//www.beian.miit.gov.cn/" target="_blank" style="color:black;">陇ICP备20002637号-1</a></p>
   </div>
   <script type="template/mustache" id="server-template">
     <tr class="{{alert}}">
